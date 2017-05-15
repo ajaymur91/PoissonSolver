@@ -1,0 +1,22 @@
+#!/bin/bash
+#SBATCH --qos=normal            # Quality of Service
+#SBATCH --job-name=cg           # Job Name
+#SBATCH -o LOG_FILE 
+#SBATCH --time=02:00:00         # WallTime
+#SBATCH --nodes=1               # Number of Nodes
+#SBATCH --ntasks-per-node=1     # Number of tasks (MPI presseces)
+##SBATCH --cpus-per-task=20      # Number of processors per task OpenMP threads()
+##SBATCH --gres=mic:0           # Number of Co-Processors
+
+#cp ../coord.crd ./
+
+g++ density.cpp -o density -O3
+time ./density CNTP10e.txt CNTN10e.txt
+
+export OMP_SCHEDULE='GUIDED'
+export OMP_NUM_THREADS=20
+
+g++ potential.cpp cg_omp.cpp -o potential -O3 -fopenmp
+time ./potential
+#cp potential.txt ../
+

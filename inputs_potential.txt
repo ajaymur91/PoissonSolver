@@ -1,0 +1,16 @@
+53
+53
+511
+0.5
+1.0e-3
+5000
+1
+
+
+#numx
+#numy
+#numz
+#dx in Ao
+#tolerance in Volts (parameter for convergence-sum over all mesh points(error in each point^2))
+#Number of frames over which density is measured
+#Number of Box divisions: 4 if box divided onto four parts

@@ -1,0 +1,19 @@
+#Format
+# n is number of atoms in system
+# Lx, Ly, Lz are simulation box lengths
+X1(t=0) Y1(t=0) Z1(t=0)
+X2(t=0) Y2(t=0) Z2(t=0)
+.......
+.......
+......
+Xn(t=0) Yn(t=0) Zn(t=0)
+Lx(t=0) Ly(t=0) Lz(t=0)
+
+X1(t=t1) Y1(t=t1) Z1(t=t1)
+X2(t=t1) Y2(t=t1) Z2(t=t1)
+.......
+.......
+......
+Xn(t=t1) Yn(t=t1) Zn(t=t1)
+Lx(t=t1) Ly(t=t1) Lz(t=t1)
+
