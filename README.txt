@@ -11,7 +11,7 @@ How to use this Package?
 Disclaimer:
 * This is the preliminary build and requires plenty of documentation/clean up. 
 * At this point the most reusable part of the code is solving an AX=B system using conjugate gradients optimization. 
-* If you are interested in using this for your research and need help getting this to work, catch me at (ajaymur91 at gmail dot com)
+* If you are interested in using this for your research or would like to develop this further, catch me at (ajaymur91 at gmail dot com)
 
 -------------------------------------------------
 Submission script : jobsc (View jobsc to understand how the code works together)
