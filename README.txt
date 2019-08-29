@@ -5,7 +5,7 @@ When to use this Package?
 
 How to use this Package?
 * Convert the MD equilibrated trajectory or (single frame) to crdbox format and name it coord.crd
-* Supply input information through inputs_density.txt and inputa_potential.txt (mdp style file,self explanatory)
+* Supply input information through inputs_density.txt and inputs_potential.txt (mdp style file,self explanatory)
 * Run the submission script "jobsc". alter this file to suit your batch server system (or computer)..
 
 Disclaimer:
