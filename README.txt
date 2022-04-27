@@ -9,7 +9,6 @@ How to use this Package?
 * Run the submission script "jobsc". alter this file to suit your batch server system (or computer)..
 
 Disclaimer:
-* This is the preliminary build and requires plenty of documentation/clean up. 
 * At this point the most reusable part of the code is solving an AX=B system using conjugate gradients optimization. 
 * If you are interested in using this for your research or would like to develop this further, catch me at (ajaymur91 at gmail dot com)
 
